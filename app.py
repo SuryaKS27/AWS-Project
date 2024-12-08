@@ -15,9 +15,9 @@ app.secret_key = "Reddy@2001"  # Needed for flash messages and session
 
 # Database configuration
 db_config = {
-    'host': 'database-2.cixmm3p8eufi.us-east-1.rds.amazonaws.com',
+    'host': 'database-1.cixmm3p8eufi.us-east-1.rds.amazonaws.com',
     'user': 'admin',
-    'password': 'surya123',
+    'password': 'Niah,Kssm2728',
     'database': 'test'
 }
 

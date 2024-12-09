@@ -15,10 +15,10 @@ app.secret_key = "Reddy@2001"  # Needed for flash messages and session
 
 # Database configuration
 db_config = {
-    'host': 'database-1.cixmm3p8eufi.us-east-1.rds.amazonaws.com',
-    'user': 'admin',
-    'password': 'Niah,Kssm2728',
-    'database': 'test'
+    'host': os.getenv('DB_HOST'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'database': os.getenv('DB_NAME')
 }
 
 # Database connection function
